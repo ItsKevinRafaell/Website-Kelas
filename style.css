@@ -10,14 +10,13 @@ section {
 }
 
 nav {
-  color: black;
-  padding:10px;
+  color: black;;
+  padding:5px;
   transition: all 1s;
   background-color: white; !important black
 }
 
 .nav-color {
-  padding: 10px;
   background-color: white;
   color: white;
 }
