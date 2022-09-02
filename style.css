@@ -61,7 +61,7 @@ nav .navbar-nav a:hover:after {
   padding-bottom: 40px;
 }
 
-.btn {
+.btn-baca {
   width: 270px;
   text-align: center;
   letter-spacing: 1px;
@@ -76,7 +76,61 @@ nav .navbar-nav a:hover:after {
   box-shadow: 0px 0px 5px, 0px 0px 10px #858585;
 }
 
-.btn:hover {
+.btn-baca:hover {
+  color: green;
+  background-color: transparent;
+  transform: scale(1.2);
+  text-shadow: none;
+  cursor: pointer;
+  transition: all 0.4 ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn-ganjil {
+  width: 270px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+  box-shadow: 0px 0px 5px, 0px 0px 10px #858585;
+}
+
+.btn-ganjil:hover {
+  color: black;
+  background-color: white;
+  transform: scale(1.2);
+  text-shadow: none;
+  cursor: pointer;
+  transition: all 0.4 ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn-genap {
+  width: 270px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+  box-shadow: 0px 0px 5px, 0px 0px 10px #858585;
+}
+
+.btn-genap:hover {
   color: green;
   background-color: transparent;
   transform: scale(1.2);
@@ -93,44 +147,18 @@ nav .navbar-nav a:hover:after {
   padding-bottom: 90 px;
 }
 
-.jadwal h1 {
-  text-align: center;
-  color: green;
-}
-
-.jadwal h1:hover {
-  text-shadow: none;
-  cursor: pointer;
-  transition: all 0.4 ease;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale (1.1);
-  z-index: 2;
-}
-
 .jadwal h3 {
   text-align: center;
-  color: black;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.jadwal h3:hover {
-  text-shadow: none;
-  cursor: pointer;
-  transition: all 0.4 ease;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale (1.1);
   color: green;
-  z-index: 2;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
-.jadwal h5 {
-  font-size: 20px;
-}
-.jadwal p {
-  font-size: 15px;
+.jadwal h4 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 27px;
+  padding-bottom: 20px;
 }
 
 .ho:hover {
@@ -144,4 +172,37 @@ nav .navbar-nav a:hover:after {
   z-index: 2;
   background-color: #2a2a2a;
   color: white;
+}
+
+container.minggu-ganjil ul.btn {
+  background-color: black;
+}
+
+#clock {
+  font-size: 13px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  width: 115px;
+  background-color: rgb(54, 52, 52);
+  border-radius: 10px;
+  top: 5px;
+  right: 610px;
+}
+
+@media (max-width: 991.98px) {
+  #clock {
+    left: 45%;
+  }
+}
+@media (min-width: 991.98px) {
+  #clock {
+    left: 45%;
+  }
+}
+
+@media (max-width: 482px) {
+  #clock {
+    left: 45%;
+  }
 }
