@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="/assets/style.css" />
     <!-- Data AOS -->
@@ -21,8 +22,14 @@
   </head>
 
   <body>
+    <div class="theme">
+      <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+    </div>
+    <!-- Loading Page Start -->
     <div class="loader"></div>
+    <!-- Loading Page End -->
 
+    <!-- Intro Start -->
     <div class="intro">
       <h1 class="logo-header">
         <div class="logo-span">Ha</div>
@@ -37,6 +44,7 @@
         </div>
       </h1>
     </div>
+    <!--  Intro End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg sticky-top mt-0 nav-color" data-aos="slide-down" data-aos-duration="1500">
@@ -65,6 +73,7 @@
             </li>
           </ul>
         </div>
+        <i class="bi-moon" id="toggleDark"></i>
       </div>
     </nav>
     <!-- Navbar End -->
@@ -95,31 +104,40 @@
     <!--  Member Start -->
     <section class="member" data-aos-easing="ease-in-back" data-aos-duration="1500">
       <div class="container">
-        <h2 class="text-center success">Pengajar XI-RPL</h2>
-        <div class="row col-6 text-start">
-          <h1>H. Sayom S.Pd</h1>
-          <h6>Wali Kelas XI RPL - Pengajar Mobile Development</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat.</p>
-        </div>
-        <div class="row text-end">
-          <div class="col col-6"></div>
-          <div class="col col-6">
+        <div class="row p-lg-5 mt-5">
+          <div class="col-md-6 image" style="padding: 0px">
+            <img src="/assets/img/guru.png" alt="Kevin Rafael" width="350" class="img-thumbnai border border-white border-3" />
+          </div>
+          <div class="col-md-6 content">
             <h1>Pak Abi</h1>
             <h6>Guru XI RPL - Pengajar Backend</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, veniam.</p>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col col-3"></div>
-          <div class="col col-6">
-            <h1>Bu Etik</h1>
-            <h6>Guru XI RPL - Pengajar IOT</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nihil?Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Modi, alias?
-            </p>
+      </div>
+
+      <div class="container">
+        <div class="row p-lg-5 mt-5">
+          <div class="col-md-7 content text-abi">
+            <h1>Pak Abi</h1>
+            <h6>Guru XI RPL - Pengajar Backend</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, veniam.</p>
           </div>
-          <div class="col col-3"></div>
+          <div class="col-md-5 image image-abi">
+            <img src="/assets/img/guru.png" alt="Kevin Rafael" width="350" class="image-abi img-thumbnai border border-white border-3" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row p-lg-5 mt-5">
+          <div class="col-md-5 col-lg-6 image image-etik" style="padding-right: 350px">
+            <img src="/assets/img/guru.png" alt="Kevin Rafael" width="350" class="img-thumbnai border border-white border-3" />
+          </div>
+          <div class="col-md-5 col-lg-6 content">
+            <h1>Pak Abi</h1>
+            <h6>Guru XI RPL - Pengajar Backend</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, veniam.</p>
+          </div>
         </div>
       </div>
     </section>

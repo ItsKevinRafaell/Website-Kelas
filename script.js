@@ -27,10 +27,26 @@ window.addEventListener("DOMContentLoaded", () => {
           span.classList.add("fade");
         }, (id + 1) * 50);
       });
-    }, 2500);
+    }, 100); //set 3000
 
     setTimeout(() => {
       intro.style.top = "-100vh";
-    }, 3000);
+    }, 100); //set 3500
   });
+});
+
+const toggle = document.getElementById("toggleDark");
+const body = document.querySelector("body");
+
+toggle.addEventListener("click", function () {
+  this.classList.toggle("bi-brightness-high-fill");
+  if (this.classList.toggle("bi-moon")) {
+    body.style.background = "white";
+    body.style.color = "black";
+    body.style.transition = "2s";
+  } else {
+    body.style.background = "black";
+    body.style.color = "white";
+    body.style.transition = "2s";
+  }
 });
