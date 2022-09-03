@@ -283,7 +283,116 @@ container.minggu-ganjil ul.btn {
 }
 .member h2{
   padding-bottom:40px;
+  font-size:45px;
 }
 .member h1 {
-  font-size:30px;
+  font-size: 35px;
+  color:green;
+}
+
+.member h6{
+  font-size:18px;
+  color: black;
+}
+
+.member p {
+  font-size:15px; 
+  color: #696969;
+}
+
+@media (max-width: 991.98px) {
+ 
+}
+@media (min-width: 991.98px) {
+ 
+}
+
+@media (max-width: 482px) {
+
+  .member {
+    padding-bottom:1px;
+  }
+  .member h2{
+    font-size:35px;
+  }
+  .member h1 {
+    font-size:30px;
+  }
+  .member h6{
+    font-size:16px;
+  }
+
+  .member p {
+    font-size:12px;
+  }
+}
+
+.intro {
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: 1s;
+  /* opacity: 0; */
+}
+.logo-header {
+  position: absolute;
+  /* top: 40%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 42px;
+  font-weight: 800;
+  display: flex;
+}
+.logo-span {
+  position: relative;
+  bottom: -20px;
+  opacity: 0;
+  margin: 0;
+}
+.dots {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 5px;
+}
+.dot:first-child {
+  margin-right: 5px;
+  animation: loading-dots 3s 2s infinite;
+}
+.dot:nth-child(2) {
+  margin-right: 5px;
+  animation: loading-dots 3s 2.5s infinite;
+}
+.dot:nth-child(3) {
+  margin-right: 5px;
+  animation: loading-dots 3s 3s infinite;
+}
+.logo-span.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.15s;
+}
+.logo-span.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+@keyframes loading-dots {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
 }
