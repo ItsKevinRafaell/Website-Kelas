@@ -364,15 +364,15 @@ container.minggu-ganjil ul.btn {
 }
 .dot:first-child {
   margin-right: 5px;
-  animation: loading-dots 3s 2s infinite;
+  animation: loading-dots 10s 10s infinite;
 }
 .dot:nth-child(2) {
   margin-right: 5px;
-  animation: loading-dots 3s 2.5s infinite;
+  animation: loading-dots 10s 10s infinite;
 }
 .dot:nth-child(3) {
   margin-right: 5px;
-  animation: loading-dots 3s 3s infinite;
+  animation: loading-dots 10s 10s infinite;
 }
 .logo-span.active {
   bottom: 0;
