@@ -13,17 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
     <!-- Data AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="script.js" defer></script>
   </head>
 
   <body>
+    <div class="loader"></div>
+
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg sticky-top mt-0 nav-color" data-aos="slide-down" data-aos-duration="1500">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/logo.JPG" alt="" width="30" height="28" class="d-inline-block align-text-top rounded-circle" />
+          <img src="/assets/img/logo.JPG" alt="" width="30" height="28" class="d-inline-block align-text-top rounded-circle logo" />
           Kelas XI-RPL
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,6 +76,23 @@
       </div>
     </section>
     <!-- Kelas End -->
+
+    <!-- Member Start -->
+    <!-- <section class="member">
+      <div class="container">
+        <h2 class="text-center fs-1">Pengajar XI RPL</h2>
+        <div class="row">
+          <h1 class="text-start">H. Sayom S.Pd</h1>
+        </div>
+        <div class="row">
+          <h1 class="text-end">Pak Abi</h1>
+        </div>
+        <div class="row">
+          <h1 class="text-center">Bu Etik</h1>
+        </div>
+      </div>
+    </section> -->
+    <!--  Member End -->
 
     <!-- Jadwal Start -->
     <section class="jadwal" id="jadwal">
@@ -148,7 +169,7 @@
       </div>
       <div class="container minggu-ganjil">
         <div class="header-jadwal text-center">
-          <h4>- MINGGU GANJIL</h4>
+          <h4>- MINGGU GANJIL -</h4>
         </div>
         <div class="row d-flex justify-content-evenly text-center">
           <div class="dropdown col-md-4 mt-3 mb-3 p-3 text-center">
