@@ -404,11 +404,33 @@ container.minggu-ganjil ul.btn {
 }
 .logo-header {
   position: absolute;
-  /* top: 40%; */
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #000;
   font-size: 42px;
+  font-weight: 800;
+  display: flex;
+}
+
+.logo-second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 38px;
+  font-weight: 800;
+  display: flex;
+}
+
+.logo-third {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+  font-size: 20px;
   font-weight: 800;
   display: flex;
 }
@@ -458,16 +480,22 @@ container.minggu-ganjil ul.btn {
   }
 }
 
-i{
-  font-size: 30px;
+.bi-moon{
   cursor: pointer;
-  position: absolute;
-  top: 40%;
-  left: 95%;
+  position: fixed;
+  top: 10%;
+  padding-bottom:14px;
   transform: translate(-50%, -50%);
   color:black;
+
 }
-h1{
-  text-align: center;
-  font-size: 3em;
+.bi-brightness-high-fill{
+  cursor: pointer;
+  position: fixed;
+  top: 10%;
+  padding-bottom:14px;
+  transform: translate(-50%, -50%);
+  color:black;
+
 }
+
