@@ -11,7 +11,6 @@ window.addEventListener("load", () => {
 let intro = document.querySelector(".intro");
 let logo = document.querySelector(".logo-header");
 let logo2 = document.querySelector(".logo-second");
-let logo3 = document.querySelector(".logo-third");
 let logoSpan = document.querySelectorAll(".logo-span");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -29,11 +28,11 @@ window.addEventListener("DOMContentLoaded", () => {
           span.classList.add("fade");
         }, (id + 1) * 50);
       });
-    }, 4500); //set 3000
+    }, 3000); //set 3000
 
     setTimeout(() => {
       intro.style.top = "-100vh";
-    }, 6000); //set 3500
+    }, 4000); //set 3500
   });
 });
 
