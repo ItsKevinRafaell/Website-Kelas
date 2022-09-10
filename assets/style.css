@@ -11,11 +11,25 @@ section {
 
 nav {
   color: black;
-  padding:5px;
+  padding:0;
   transition: all 1s;
   background-color:white;
   border-bottom: 1px solid black;
   shadow-bottom: 5px; 
+  position:fixed;
+
+}
+
+nav li {
+  padding-left : 4px;
+  padding-right: 4px;
+}
+.navbar-toggler {
+  color:none;
+  border-width:2px;
+}
+.navbar-toggler-icon {
+  border-color:red;
 
 }
 
@@ -23,6 +37,7 @@ nav {
   background-color: white;
   color: white;
   border-bottom:none;
+  padding:20;
 }
 
 .navbar-brand {
@@ -587,7 +602,7 @@ container.minggu-ganjil ul.btn {
   cursor: pointer;
   position: fixed;
   top: 10%;
-  padding-bottom:14px;
+  padding-bottom:6px;
   transform: translate(-50%, -50%);
   color:black;
 
@@ -614,7 +629,7 @@ container.minggu-ganjil ul.btn {
 }
 
 .introduction {
-  background-color:#24292e;
+  background-color:#222522;
   padding-top:40px;
   color:white;
 }
@@ -624,7 +639,7 @@ container.minggu-ganjil ul.btn {
 
 .jadwal {
   padding-top:60px;
-  background-color:#24292e;
+  background-color:#222522;
     color:white;
 }
 
