@@ -5,9 +5,9 @@ body {
   height: 100%;
 }
 
-/* section {
+section {
   padding-top: 10px;
-} */
+}
 
 nav {
   color: black;
@@ -312,8 +312,7 @@ container.minggu-ganjil ul.btn {
 }
 
 .member h6{
-  font-size:18px;
-  color: black;
+  font-size:18px; 
 }
 
 .member p {
@@ -630,4 +629,26 @@ container.minggu-ganjil ul.btn {
 
 .introduction h5 {
   padding-bottom:40px;
+}
+
+footer {
+  background-color : #121212;
+  color:white;
+}
+
+footer h6 {
+  color:green;
+}
+
+footer br {
+  margin: 1rem 0;
+  color: white;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25;
+}
+footer p {
+  color:white;
+  font-size:12px;
+  margin:0;
 }

@@ -49,8 +49,8 @@ toggle.addEventListener("click", function () {
   } else {
     body.style.background = "black";
     body.style.color = "white";
+
     body.style.transition = "2s";
-    body.style.navcolor.background = "black";
   }
 });
 
