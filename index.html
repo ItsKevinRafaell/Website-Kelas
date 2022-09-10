@@ -30,7 +30,7 @@
     <!-- Loading Page End -->
 
     <!-- Intro Start -->
-    <div class="intro">
+    <!-- <div class="intro">
       <h5 class="logo-header">
         <div class="logo-span">Ha</div>
         <div class="logo-span">loo&nbsp;</div>
@@ -56,14 +56,14 @@
             <div class="dot">.</div>
             <div class="dot">.</div>
           </div>
-    </div>
+    </div> -->
     <!--  Intro End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg sticky-top mt-0 nav-color" data-aos="slide-down" data-aos-duration="1500">
+    <nav class="navbar navbar-expand-lg sticky-top mt-0 nav-color navcolor" data-aos="slide-down" data-aos-duration="1500">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/assets/img/logo.JPG" alt="" width="30" height="28" class="d-inline-block align-text-top rounded-circle logo" />
+          <img src="/assets/img/logo.png" alt="" width="30" height="28" class="d-inline-block align-text-top rounded-circle logo" />
           Kelas XI-RPL
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,16 +73,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-success" aria-current="page" href="#">Kelas</a>
+              <a class="nav-link text-success berhasil" aria-current="page" href="#kelas">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/jadwal.html">Jadwal</a>
+              <a class="nav-link" aria-current="page" href="#member">Warga Kelas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Materi</a>
-            </li>
-            <li class="nav-item me-2">
-              <a class="nav-link" href="#">Kantin</a>
+              <a class="nav-link" href="#jadwal">Jadwal</a>
             </li>
             <li><a class="bi-moon" id="toggleDark"></a></li>
           </ul>
@@ -91,8 +88,8 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Kelas Start -->
-    <section class="kelas text-center">
+    <!-- Jumbotron Start -->
+    <section class="kelas text-center" id="kelas">
       <div class="container">
         <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500">Halo Semuanya, Selamat Datang di...</p>
         <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500">KELAS XI-RPL</h1>
@@ -100,7 +97,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, corporis saepe quas cum tempora rerum! Iure similique excepturi nobis corporis?
         </h6>
         <a
-          href="#"
+          href="#introduction"
           class="btn btn-baca text-center"
           style="--bs-btn-padding-y: 0.4rem; --bs-btn-padding-x: 0.25rem; --bs-btn-font-size: 0.9rem"
           data-aos="zoom-out"
@@ -112,10 +109,20 @@
         >
       </div>
     </section>
-    <!-- Kelas End -->
+    <!-- Jumbotron End -->
+
+    <!-- Introduction Start -->
+    <section class="introduction text-center pb-5" id="introduction">
+      <img src="/assets/img/logo.png" alt="Kevin Rafael" width="270" height="250" class="rounded-circle" />
+      <div class="row col-12 mt-5">
+        <h1>This is XI-RPL</h1>
+        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore laudantium quod et assumenda corrupti incidunt minus tenetur, possimus accusamus animi!</h5>
+      </div>
+    </section>
+    <!-- Introduction End -->
 
     <!--  Member Start -->
-    <section class="member" data-aos-easing="ease-in-back" data-aos-duration="1500">
+    <section class="member pt-3 pb-5" data-aos-easing="ease-in-back" data-aos-duration="1500" id="member">
       <div class="container">
         <div class="row p-lg-5 mt-5">
           <div class="col-md-6 image" style="padding: 0px">
@@ -152,6 +159,18 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex neque, vel officiis quod quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, veniam.</p>
           </div>
         </div>
+      </div>
+      <div class="siswa text-center mt-5 mt-md-1">
+        <a
+          href="#"
+          class="btn btn-baca text-center absen"
+          style="--bs-btn-padding-y: 0.4rem; --bs-btn-padding-x: 0.25rem; --bs-btn-font-size: 0.9rem"
+          data-aos="zoom-out"
+          data-aos-easing="ease-in-back"
+          data-aos-duration="800"
+          data-aos-anchor-placement="top-bottom"
+          >Daftar Absen Siswa XI-RPL</a
+        >
       </div>
     </section>
 
