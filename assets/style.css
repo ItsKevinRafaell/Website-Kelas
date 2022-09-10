@@ -25,12 +25,13 @@ nav li {
   padding-right: 4px;
 }
 .navbar-toggler {
-  color:none;
+  background-color:black;
   border-width:2px;
 }
-.navbar-toggler-icon {
-  border-color:red;
+.navbar .navbar-toggler-icon {
 
+  background-image: url(/hamburger.PNG);
+  background-color:black;
 }
 
 .nav-color {
@@ -241,7 +242,7 @@ container.minggu-ganjil ul.btn {
   padding: 10px;
   margin: 5px;
   width: 115px;
-  background-color: rgb(54, 52, 52);
+  background-color:black;
   border-radius: 10px;
   top: 5px;
   right: 610px;

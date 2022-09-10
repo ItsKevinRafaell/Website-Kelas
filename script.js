@@ -39,10 +39,9 @@ window.addEventListener("DOMContentLoaded", () => {
 const toggle = document.getElementById("toggleDark");
 const body = document.querySelector("body");
 const nav = document.querySelector("nav");
-
 const member = document.querySelector("memberH1");
 const navtext = document.querySelector("textNav");
-const icon = document.querySelector("icon");
+const icon = document.querySelector("navbar-toggler-icon");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("bi-brightness-high-fill");
@@ -55,16 +54,16 @@ toggle.addEventListener("click", function () {
     body.style.nav.color = "white";
     member.style.color = "green";
     navtext.style.color = "green";
-    navbartoogler.style.borderColor = "transparent";
+    icon.style.backgroundImage = "url('icon.jpg')";
   } else {
     body.style.background = "black";
     body.style.color = "white";
-    nav.style.background = "#121212";
+    nav.style.background = "black";
     body.style.transition = "2s";
     nav.style.transition = "2s";
     member.style.color = "#0CA70C";
     navtext.style.color = "#0CA70C";
-    navbartoogler.style.borderColor = "white";
+    icon.style.backgroundImage = "url('hamburger.PNG')";
   }
 });
 
