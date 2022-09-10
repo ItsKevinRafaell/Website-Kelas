@@ -628,8 +628,8 @@ container.minggu-ganjil ul.btn {
     color:white;
 }
 
-.introduction h5 {
-  padding-bottom:40px;
+.introduction .row {
+  padding-left:16px;
 }
 
 footer {
