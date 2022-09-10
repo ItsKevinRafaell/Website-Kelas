@@ -442,6 +442,7 @@ container.minggu-ganjil ul.btn {
   font-size:30px;
 }
 
+
 @media (max-width: 1280px) {
   .logo-header .logo-span {
     font-size:40px;
@@ -638,6 +639,7 @@ footer {
 
 footer h6 {
   color:green;
+  text-decoration:none;
 }
 
 footer br {
