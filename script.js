@@ -46,12 +46,15 @@ toggle.addEventListener("click", function () {
     body.style.background = "white";
     body.style.color = "black";
     body.style.transition = "2s";
+    nav.style.background = "white";
+    nav.style.transition = "2s";
     body.style.nav.color = "white";
   } else {
     body.style.background = "black";
     body.style.color = "white";
     nav.style.background = "black";
     body.style.transition = "2s";
+    nav.style.transition = "2s";
   }
 });
 
