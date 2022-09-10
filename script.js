@@ -38,6 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const toggle = document.getElementById("toggleDark");
 const body = document.querySelector("body");
+const nav = document.querySelector("nav");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("bi-brightness-high-fill");
@@ -49,7 +50,7 @@ toggle.addEventListener("click", function () {
   } else {
     body.style.background = "black";
     body.style.color = "white";
-
+    nav.style.background = "black";
     body.style.transition = "2s";
   }
 });
