@@ -322,18 +322,15 @@ container.minggu-ganjil ul.btn {
   padding-bottom:40px;
   font-size:45px;
 }
-.member h1 {
-  font-size: 35px;
-  color:green;
-}
 
 .member h6{
   font-size:18px; 
+  color:white;
 }
 
 .member p {
   font-size:15px; 
-  color: #696969;
+  color: #c3c3c3;
 }
 .member .text-abi {
   padding-right: 150px;
@@ -628,20 +625,27 @@ container.minggu-ganjil ul.btn {
     top:0px;
   }
 }
-
-.introduction {
-  background-color:#222522;
-  padding-top:40px;
+.member h1 {
+  font-size: 35px;
   color:white;
 }
 
+
+.introduction {
+  background-color:#101c10;
+  padding-top:40px;
+  color:white;
+}
+.introduction h1 {
+  color:white;
+}
 .member {
+  background-color:#101c10;
 }
 
 .jadwal {
   padding-top:60px;
-  background-color:#222522;
-    color:white;
+
 }
 
 .introduction .row {
