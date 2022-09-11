@@ -42,7 +42,7 @@ nav li {
 }
 
 .navbar-brand {
-  color: green;
+  color: #259140;
 }
 
 /* .navbar-brand:after {
@@ -107,7 +107,7 @@ nav .navbar-nav a:hover:after {
 
 .kelas h1 {
   font-size: 100px;
-  color: green;
+  color: #259140;
 }
 
 
@@ -123,7 +123,7 @@ nav .navbar-nav a:hover:after {
   width: 270px;
   text-align: center;
   letter-spacing: 1px;
-  background-color: green;
+  background-color: #259140;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -151,7 +151,7 @@ nav .navbar-nav a:hover:after {
   text-align: center;
   letter-spacing: 1px;
   background-color: white;
-  color: green;
+  color: #259140;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -177,7 +177,7 @@ nav .navbar-nav a:hover:after {
   width: 270px;
   text-align: center;
   letter-spacing: 1px;
-  background-color: green;
+  background-color: #259140;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -189,7 +189,7 @@ nav .navbar-nav a:hover:after {
 }
 
 .btn-genap:hover {
-  color: green;
+  color: #259140;
   background-color: transparent;
   transform: scale(1.2);
   cursor: pointer;
@@ -625,26 +625,43 @@ container.minggu-ganjil ul.btn {
     top:0px;
   }
 }
+
+#memberH1 {
+    color:#259140;
+}
+
+.kurikulum .card-header{
+  color:#259140;
+}
 .member h1 {
   font-size: 35px;
   color:white;
 }
 
 .introduction {
-  background-color:#030e03;
+  background-color:#141414;
   padding-top:40px;
   color:white;
 }
 .introduction h1 {
-  color:white;
+  color:#259140;
 }
 .member {
-  background-color:#030e03;
+  background-color:#141414;
 }
 
 .jadwal {
   padding-top:60px;
+}
 
+#contact {
+  background-color:#141414;
+  padding-top:50px;
+}
+
+.btn-kirim {
+  background-color:#259140;
+  color:black;
 }
 
 .introduction .row {
@@ -652,12 +669,12 @@ container.minggu-ganjil ul.btn {
 }
 
 footer {
-  background-color : #121212;
+  background-color :black;
   color:white;
 }
 
 footer h6 {
-  color:green;
+  color:#259140;
   text-decoration:none;
 }
 
